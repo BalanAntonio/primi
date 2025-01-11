@@ -1,6 +1,13 @@
 let aprimi = [];
 let arr_glob = [];
 
+window.onload = function() {
+    primi_fino(10001);
+    for(let i = 0; i<aprimi.length;i++){
+        document.getElementById("k10").innerHTML += aprimi[i] +" ";
+    }
+}
+
 function calcola(){
     let inp = document.getElementById("inp").value;
     let vis = document.getElementById("inp2");
