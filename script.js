@@ -8,6 +8,8 @@ function calcola(){
     if(!isNaN(parseInt(inp))){
         arr_glob.push(parseInt(inp));
         vis.innerHTML += parseInt(inp) + " ";
+    }else{
+        alert("Inserire un numero valido");
     }
 }
 
